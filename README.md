@@ -53,18 +53,17 @@ PostgreSQL / MySQL / MongoDB (edit accordingly)
 lms-project/
 │
 ├── frontend/        # React Frontend
-├── backend/         # API Backend
-├── database/        # Database schema (if included)
+├── backend/         # API Backend include your database in .env file and go
 └── README.md
 
 ⚙️ Installation & Setup
 1️⃣ Clone the repository
-git clone https://github.com/YOUR_USERNAME/lms-project.git
+git clone https://github.com/aabhushanCD/lms-project.git
 cd lms-project
 2️⃣ Setup Backend
 cd backend
 npm install
-npm run start
+npm run dev
 3️⃣ Setup Frontend
 cd frontend
 npm install
@@ -76,9 +75,7 @@ Create a .env file inside the backend folder:
 PORT=5000
 DATABASE_URL=your_database_url
 JWT_SECRET=your_secret_key
-📸 Screenshots
 
-(Add screenshots of your dashboard, login page, course page, etc.)
 
 🎯 Project Objectives
 
